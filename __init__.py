@@ -1,0 +1,2 @@
+# Astrbot Wealth and Contract Plugin with Likability System
+# This is an init file for the plugin package
