@@ -4,11 +4,13 @@
 # 添加调试信息
 print("Loading astrbot_plugin_likability plugin...")
 
-try:
-    from astrbot_plugin_likability import Plugin
-    print("Successfully imported Plugin class")
-except Exception as e:
-    print(f"Error importing Plugin class: {e}")
+# 直接定义Plugin类
+class Plugin:
+    def __init__(self):
+        print("Plugin class initialized")
+        
+    def test(self):
+        return "Test plugin works!"
 
 # 为兼容Astrbot，提供多个可能的类名
 Main = Plugin
