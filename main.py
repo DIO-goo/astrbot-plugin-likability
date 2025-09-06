@@ -1,7 +1,7 @@
 #region ==================== 插件导入库 ====================
 from astrbot.api.all import *
 from astrbot.api.message_components import Image, Plain
-from likability_system import LikabilitySystem
+from .likability_system import LikabilitySystem
 from astrbot.api.event import filter, AstrMessageEvent
 from astrbot.api.star import Context, Star, register
 from astrbot.api import AstrBotConfig
