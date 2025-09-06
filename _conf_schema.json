@@ -68,7 +68,7 @@
       },
       "admin_list": {
         "description": "管理员列表",
-        "type": "array",
+        "type": "list",
         "hint": "具有管理员权限的用户ID列表",
         "default": []
       }
