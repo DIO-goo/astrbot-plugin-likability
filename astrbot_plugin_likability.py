@@ -667,7 +667,7 @@ SHANGHAI_TZ = pytz.timezone('Asia/Shanghai')
     "https://github.com/WUHINS/astrbot_plugin_WealthAndContract"
 )
 
-class AstrbotPluginLikability(Star):
+class Plugin(Star):
     def __init__(self, context: Context, config: AstrBotConfig):
         super().__init__(context)
         self.config = config
